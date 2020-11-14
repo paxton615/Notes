@@ -1,0 +1,2 @@
+Just created a SparkContext
+0.7348450973729768

@@ -1,0 +1,20 @@
+{'regParam': 1.0, 'fitIntercept': True}
+
+aggregationDepth: suggested depth for treeAggregate (>= 2) (default: 2)
+elasticNetParam: the ElasticNet mixing parameter, in range [0, 1]. For alpha = 0, the penalty is an L2 penalty. For alpha = 1, it is an L1 penalty (default: 0.0, current: 0.0)
+epsilon: The shape parameter to control the amount of robustness. Must be > 1.0. (default: 1.35)
+featuresCol: features column name (default: features, current: scaledfeatures)
+fitIntercept: whether to fit an intercept term (default: true, current: true)
+labelCol: label column name (default: label, current: MEDV)
+loss: The loss function to be optimized. Supported options: squaredError, huber. (Default squaredError) (default: squaredError)
+maxIter: maximum number of iterations (>= 0) (default: 100, current: 3000)
+predictionCol: prediction column name (default: prediction)
+regParam: regularization parameter (>= 0) (default: 0.0, current: 1.0)
+solver: The solver algorithm for optimization. Supported options: auto, normal, l-bfgs. (Default auto) (default: auto)
+standardization: whether to standardize the training features before fitting the model (default: true)
+tol: the convergence tolerance for iterative algorithms (>= 0) (default: 1.0E-6)
+weightCol: weight column name. If this is not set or empty, we treat all instance weights as 1.0 (undefined)
+
+0.7310936297006648
+0.6934885107911399
+0.7218117084843778

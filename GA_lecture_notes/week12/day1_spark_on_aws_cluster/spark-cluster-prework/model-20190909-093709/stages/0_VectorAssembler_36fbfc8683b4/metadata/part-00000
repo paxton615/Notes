@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1568018229223,"sparkVersion":"2.4.4","uid":"VectorAssembler_36fbfc8683b4","paramMap":{"outputCol":"features","inputCols":["CRIM","ZN","INDUS","CHAS","NOX","RM","AGE","DIS","RAD","TAX","PTRATIO","B","LSTAT"]},"defaultParamMap":{"handleInvalid":"error","outputCol":"VectorAssembler_36fbfc8683b4__output"}}
