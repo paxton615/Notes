@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="73db477e952c4eb895cb2bd6a731686e" class="chart-container" style="width:800px; height:600px;"></div>
+    <script>
+        var chart_73db477e952c4eb895cb2bd6a731686e = echarts.init(
+            document.getElementById('73db477e952c4eb895cb2bd6a731686e'), 'white', {renderer: 'canvas'});
+        var option_73db477e952c4eb895cb2bd6a731686e = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "funnel",
+            "data": [
+                {
+                    "name": "pv=2435888",
+                    "value": 2435888
+                },
+                {
+                    "name": "cart&fav=254541(10.45% of pv)",
+                    "value": 254541
+                },
+                {
+                    "name": "buy=58537(23% of cart&fav)",
+                    "value": 58537
+                }
+            ],
+            "sort": "descending",
+            "gap": 2,
+            "label": {
+                "show": true,
+                "position": "outside",
+                "color": "black",
+                "margin": 8
+            },
+            "itemStyle": {
+                "borderColor": "#fff",
+                "borderWidth": 1
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "pv=2435888",
+                "buy=58537(23% of cart&fav)",
+                "cart&fav=254541(10.45% of pv)"
+            ],
+            "selected": {
+                "pv=2435888": true,
+                "cart&fav=254541(10.45% of pv)": true,
+                "buy=58537(23% of cart&fav)": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "Conversion Rate",
+            "subtext": "Alibaba_users",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_73db477e952c4eb895cb2bd6a731686e.setOption(option_73db477e952c4eb895cb2bd6a731686e);
+    </script>
+</body>
+</html>
